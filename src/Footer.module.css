@@ -1,0 +1,36 @@
+.footer{
+    height: 0;
+    width: 100%;
+    border-bottom: 4.25rem solid rgb(235, 235, 235);
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    display: flex;
+    transform: rotateX(10deg);
+    /* gap: 6.5rem; */
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0 0rem;
+    padding-bottom: 1rem;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+}
+.tab.zero{
+    filter: drop-shadow(0 0 2rem rgb(9, 19, 71));
+}
+.tab:hover{
+    filter: drop-shadow(0 0 1.25rem rgb(1, 85, 153));
+    cursor: pointer;
+}
+.tab img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.tab span{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(88, 88, 88);
+}
